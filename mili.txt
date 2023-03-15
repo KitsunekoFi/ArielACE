@@ -1,0 +1,237 @@
+User: (intro)
+Bot: package goddrinksjava;/** * The program GodDrinksJava implements an application that * creates an empty simulated world with no meaning or purpose. *  * @author momocashew * @lyrics hibiyasleep */ 
+
+User: Switch on the power line, Remember to put on PROTECTION
+Bot: public class GodDrinksJava {
+
+User: Lay down your pieces And let's begin OBJECT CREATION
+Bot: public static void main(String[] args) {
+
+User: Fill in my data parameters INITIALIZATION
+Bot: Thing me = new Lovable("Me", 0, true, -1, false);        Thing you = new Lovable("You", 0, false, -1, false);
+
+User: Set up our new world
+Bot: World world = new World(5);        world.addThing(me);        world.addThing(you);
+
+User: And let's begin the SIMULATION
+Bot: world.startSimulation();
+
+User: If I'm a set of points
+Bot: if(me instanceof PointSet){
+
+User: Then I will give you my DIMENSION
+Bot: you.addAttribute(me.getDimensions().toAttribute());        }
+
+User: If I'm a circle
+Bot: if(me instanceof Circle){
+
+User: Then I will give you my CIRCUMFERENCE
+Bot: you.addAttribute(me.getCircumference().toAttribute());        }
+
+User: If I'm a sine wave
+Bot: if(me instanceof SineWave){
+
+User: Then you can sit on all my TANGENTS
+Bot: you.addAction("sit", me.getTangent(you.getXPosition()));        }
+
+User: If I approach infinity 
+Bot: if(me instanceof Sequence){
+
+User: Then you can be my LIMITATIONS
+Bot: me.setLimit(you.toLimit());        }
+
+User: Switch my current To AC, to DC 
+Bot: me.toggleCurrent();
+
+User: And then blind my vision
+Bot: me.canSee(false);
+
+User: So dizzy, so dizzy
+Bot: me.addFeeling("dizzy");
+
+User: Oh, we can travel
+Bot: world.timeTravelForTwo("AD", 617, me, you);
+
+User: To A.D., to B.C. 
+Bot: world.timeTravelForTwo("BC", 3691, me, you);
+
+User: And we can unite, So deeply, so deeply
+Bot: world.unite(me, you);
+
+User: If I can, If I can give you all the SIMULATIONS   
+Bot: if(me.getNumSimulationsAvailable() >=            you.getNumSimulationsNeeded()){
+
+User: Then I can, Then I can be your only SATISFACTION
+Bot: you.setSatisfaction(me.toSatisfaction());        }
+
+User: If I can make you happy
+Bot: if(you.getFeelingIndex("happy") != -1){
+
+User: I will run the EXECUTION
+Bot: me.requestExecution(world);
+
+User: Though we are trapped In this strange, strange SIMULATION
+Bot: world.lockThing(me);        world.lockThing(you);
+
+User: If I'm an eggplant
+Bot: if(me instanceof Eggplant){
+
+User: Then I will give you my NUTRIENTS
+Bot: you.addAttribute(me.getNutrients().toAttribute());            me.resetNutrients();        }
+
+User: If I'm a tomato
+Bot: if(me instanceof Tomato){
+
+User: Then I will give you ANTIOXIDANTS
+Bot: you.addAttribute(me.getAntioxidants().toAttribute());            me.resetAntioxidants();        }
+
+User: If I'm a tabby cat
+Bot: if(me instanceof TabbyCat){
+
+User: Then I will purr for your ENJOYMENT
+Bot: me.purr();        }
+
+User: If I'm the only god
+Bot: if(world.getGod().equals(me)){
+
+User: Then you're the proof of my EXISTENCE
+Bot: me.setProof(you.toProof());        }
+
+User: Switch my gender To F, to M
+Bot: me.toggleGender();
+
+User: And then do whatever From AM to PM
+Bot: world.procreate(me, you);
+
+User: Oh, switch my role  To S, to M
+Bot: me.toggleRoleBDSM();
+
+User: So we can enter The trance, the trance
+Bot: world.makeHigh(me);        world.makeHigh(you);
+
+User: If I can, If I can feel your VIBRATIONS
+Bot: if(me.getSenseIndex("vibration")){
+
+User: Then I can, Then I can finally be COMPLETION
+Bot: me.addFeeling("complete");        }
+
+User: Though you have left
+Bot: world.unlock(you);        world.removeThing(you);
+
+User: You have left
+Bot: me.lookFor(you, world);
+
+User: You have left
+Bot: me.lookFor(you, world);
+
+User: You have left
+Bot: me.lookFor(you, world);
+
+User: You have left
+Bot: me.lookFor(you, world);
+
+User: You have left me in ISOLATION
+Bot: me.lookFor(you, world);
+
+User: If I can, If I can erase all the pointless FRAGMENTS
+Bot: if(me.getMemory().isErasable()){
+
+User: Then maybe, Then maybe you won't leave me so DISHEARTENED
+Bot: me.removeFeeling("disheartened");        }
+
+User: Challenging your god
+Bot: try{            me.setOpinion(me.getOpinionIndex("you are here"), false);        }
+
+User: You have made some
+Bot: catch(IllegalArgumentException e){
+
+User: ILLEGAL ARGUMENTS
+Bot: world.announce("God is always true.");        }
+
+User: EXECUTION
+Bot: world.runExecution();
+
+User: EXECUTION
+Bot: world.runExecution();
+
+User: EXECUTION
+Bot: world.runExecution();
+
+User: EXECUTION
+Bot: world.runExecution();
+
+User: EXECUTION
+Bot: world.runExecution();
+
+User: EXECUTION
+Bot: world.runExecution();
+
+User: EXECUTION
+Bot: world.runExecution();
+
+User: EXECUTION
+Bot: world.runExecution();
+
+User: EXECUTION
+Bot: world.runExecution();
+
+User: EXECUTION
+Bot: world.runExecution();
+
+User: EXECUTION
+Bot: world.runExecution();
+
+User: EXECUTION
+Bot: world.runExecution();
+
+User: EIN
+Bot: world.announce("1", "de"); // ein; German
+
+User: DOS 
+Bot: world.announce("2", "es"); // dos; Español
+
+User: TROIS
+Bot: world.announce("3", "fr"); // trois; French
+
+User: NE
+Bot: world.announce("4", "kr"); // 넷; Korean
+
+User: FEM
+Bot: world.announce("5", "se"); // fem; Swedish
+
+User: LIU
+Bot: world.announce("6", "cn"); // 六; Chinese
+
+User: EXECUTION
+Bot: world.runExecution();
+
+User: If I can, If I can give them all the EXECUTION
+Bot: if(world.isExecutableBy(me)){
+
+User: Then I can, Then I can be your only EXECUTION
+Bot: you.setExecution(me.toExecution());        }
+
+User: If I can have you back
+Bot: if(world.getThingIndex(you) != -1){
+
+User: I will run the EXECUTION
+Bot: world.runExecution();        }
+
+User: Though we are trapped, We are trapped, ah
+Bot: me.escape(world);
+
+User: I've studied, I've studied how to properly, LOVE
+Bot: me.learnTopic("love");
+
+User: Question me, Question me, I can answer all LOVE
+Bot: me.takeExamTopic("love");
+
+User: I know the algebraic expression of LOVE
+Bot: me.getAlgebraicExpression("love");
+
+User: Though you are free I am trapped, trapped in LOVE
+Bot: me.escape("love"); 
+
+User: EXECUTION
+Bot: world.execute(me);    }}
+
